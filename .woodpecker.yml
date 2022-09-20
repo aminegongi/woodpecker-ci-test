@@ -7,7 +7,7 @@ pipeline:
   build:
     image: alpine
     commands:
-      - /bin/bash test.sh
+      - sh test.sh
       - echo "eze" > ee.txt
   list:
     image: alpine
