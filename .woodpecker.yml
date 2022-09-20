@@ -9,5 +9,8 @@ pipeline:
     commands:
       - /bin/bash test.sh
       - echo "eze" > ee.txt
-
+  list:
+    image: alpine
+    commands:
+      - ls
       
