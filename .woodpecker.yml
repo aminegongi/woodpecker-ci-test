@@ -10,7 +10,7 @@ pipeline:
       - sh test.sh
       - echo "eze" > ee.txt
   list:
-    image: alpine
+    image: busybox
     commands:
-      - ls
+      - cat ee.txt
       
