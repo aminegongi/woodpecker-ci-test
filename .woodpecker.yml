@@ -8,9 +8,10 @@ pipeline:
     image: alpine
     commands:
       - sh test.sh
-      - echo "eze" > ee.txt
+      - echo "eze" > ete.txt
   list:
     image: busybox
     commands:
-      - cat ee.txt
+      - cat ete.txt
+      - docker images
       
