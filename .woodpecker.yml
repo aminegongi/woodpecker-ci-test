@@ -7,11 +7,5 @@ pipeline:
   build:
     image: alpine
     commands:
-      - sh test.sh
-      - echo "efzefze" > ete.txt
-  list:
-    image: busybox
-    commands:
-      - cat ete.txt
-      - docker images
-      
+      - curl --location --request GET 'https://192.168.122.234:32549/api/v1/applications' --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcmdvY2QiLCJzdWIiOiJwcm9qOmRlZmF1bHQ6YWRtaW4iLCJuYmYiOjE2NjM4MzUxMTQsImlhdCI6MTY2MzgzNTExNCwianRpIjoiYXBpIn0.2Xx5OZqNjtuaZhxbFMpbW390q190TYD7SIEv7Nh1K0s'
+      - echo "ezeyyy"
