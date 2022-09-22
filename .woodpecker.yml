@@ -8,7 +8,7 @@ pipeline:
     image: alpine
     commands:
       - sh test.sh
-      - echo "eze" > ete.txt
+      - echo "efzefze" > ete.txt
   list:
     image: busybox
     commands:
